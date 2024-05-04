@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="refresh" content="4;url=https://www.youtube.com/" />
+<head>
+    <style>
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        }
+        li {
+        float: left;
+        }
+        li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+        li a:hover:not(.active) {
+        background-color: #111;
+        }
+        .active {
+        background-color: #04aa6d;
+        }
+        footer {
+        position: fixed; 
+        left: 0; bottom: 0; 
+        color: #000000; 
+        width: 100%;
+        background-color: #5791c7;
+        }
+        .ram {
+            margin: 0;
+            padding: 5px;
+            background-color:  #f0b5ff;
+        }
+        .els{
+            background: rgb(248, 244, 244);
+        }
+        .els > h2, p{
+        margin: 4px;
+        font-size: 90%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li style="float: right"><a class="active" href="#about">About</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Верный помощник в продаже и покупке авто!</h2>
+        <p>Автосалон Royalmotors – ваш проверенный помощник в покупке и продаже престижных автомобилей. У нас вы можете купить на выгодных условиях элитные авто, поставить вашу машину на комиссию, срочно продать транспортное средство с оценкой на выгодных условиях.
+         Все автомобили из нашего каталога имеют идеальное техническое состояние и готовы к эксплуатации. При постановке автомобиля на комиссию наши специалисты возьмут на себя все юридические и технические нюансы, связанные с продажей вашей машины.</p>
+        </section>
+        <article class="ram">
+            <h2>Особые условия компании</h2>
+        <section>
+        <article class="els">
+        <h2>Посмотреть авто в наличии</h2>
+        <p>На сайте компании Royalmotors вы найдете постоянно пополняемый и обновляемый каталог престижных автомобилей. Вы легко сделаете заявку на авто. Выбирайте автомобиль, смотрите видео и технические характеристики. Мы также всегда рады видеть вас в нашем салоне, где все автомобили представлены в одном месте.</p>
+        </article>
+    </section>
+       <section>
+        <article class="els">
+        <h2>Поставить авто на комиссию</h2>
+        <p>Мы также можем вам помочь с продажей Вашего авто через наш автосалон. Мы оценим авто и выставим его в нашем салоне, поможем оформить все необходимые документы после продажи. Заполните заявку для выставления автомобиля на комиссию.</p>
+        </article>
+    </article>
+    </section>
+    <footer> 
+        <p>Телефон: +7 (123) 456-78-90</p>
+        <p>Email: info@html.ru</p>
+        <p>Юридический адрес компании: Москва, Кутузовский Проспект, 55</p>
+      </footer>
+</body>
+</html>
